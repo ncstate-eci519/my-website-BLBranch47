@@ -52,11 +52,10 @@ ul{
   nav a{
     color: white;
     text-decoration: none;
-    a:hover {
-        text-decoration: underline;
-        }
   }
-  
+  a:hover{
+    text-decoration:underline;
+  }
   @media (max-width: 768px){
     nav ul{
       display: block;
