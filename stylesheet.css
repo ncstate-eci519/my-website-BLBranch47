@@ -27,6 +27,7 @@ ul{
     padding: 25px 50px;
     border: 10px solid darkred;
     border-radius: 10px;
+    text-decoration: none;
   }
   nav{
     background-color: #0C2340;
