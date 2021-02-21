@@ -10,8 +10,9 @@ html{
     font-weight: bold;
     text-align: center;
 }
-.class{
+div{
     text-align: center;
+}
 }
 h2{
     color: grey;
