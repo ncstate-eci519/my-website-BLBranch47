@@ -10,8 +10,8 @@ html{
     font-weight: bold;
     text-align: center;
 }
-img{
-    image-orientation: center;
+.class{
+    text-align: center;
 }
 h2{
     color: grey;
