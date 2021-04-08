@@ -7,15 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://bootstrapbuildspace.sfo2.cdn.digitaloceanspaces.com//EKNVCfSlEwyh/FFyTzKrfrNkZ/bootstrap.css" crossorigin="anonymous">  
     <link rel="stylesheet" href="stylesheet.css">
-    <script language="JavaScript" src="scripts.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script>
-        $(document).ready(function(){
-          $("p").click(function(){
-            $(this).hide();
-          });
-        });
-        </script>
+   
 	</head>
 	  <body>
 
@@ -43,7 +36,17 @@
                     </form>
                             
                   </div>  
+            
+            <h1>API</h1>
+            <div class="container">
+                <figure id="cat" class="hidden">
+                  <img id="cat-img">
+                  <caption id="cat-caption"></caption>
+                </figure>
+                <button type="button" class="btn btn-primary btn-large" id="cat-button">Click here for random cat!</button>
+              </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-	 </body>
+        <script language="JavaScript" src="scripts.js"></script>
+    </body>
 </html>
